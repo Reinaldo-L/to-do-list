@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To do List</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+
+  <body>
+
+    <main class="container">
+
+      <div class="mainbody">
+        
+        <div class="heading" id="heading">
+          <h1>To do list</h1>
+          <hr />
+        </div>
+
+        <div class="suminput">
+
+          <div class="summary">
+            <p>Total: <span id="total">0</span></p>
+            <p>Done: <span id="done">0</span></p>
+            <p>Percent: <span id="pdone">0</span></p> 
+          </div>
+
+          <section class="writetask">
+            <label for="newTask">Write the New Task</label>
+            <div class="writetasktwo">
+              <input type="text" id="newTask"/>
+              <button id="add">Add</button>
+            </div>
+          </section>
+        
+        </div>
+
+        <section class="task">
+          <div>
+            <table id="taskList"></table>
+          </div>
+
+        </section>
+
+      </div>
+
+    </main>
+
+    <script src="./assets/index.js"></script>
+  </body>
+</html>
+<!---->
